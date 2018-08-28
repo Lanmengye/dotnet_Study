@@ -1,6 +1,6 @@
 ADO.net 五大对象简介(程序集`System.Data`,命名空间`System.Data`,`System.Data.SqlClient`)
 
-![ADO.net 五大对象示意图](ADO_Object.png)
+![ADO.net 五大对象示意图](Image/ADO_Object.png)
 
 * Connection对象(`DbConnection`,`SqlConnection`)
 
@@ -22,4 +22,4 @@ ADO.net 五大对象简介(程序集`System.Data`,命名空间`System.Data`,`Sys
 
   DataAdapter对象充当DataSet和数据源之间用于检索和保存数据的桥梁。DataAdapter类代表用于填充DataSet以及更新数据源的一组数据库命令和一个数据库连接。表示一组 SQL 命令和一个数据库连接，它们用于填充 DataSet 和更新数据源。
 
-[数据库访问类简单Demo](DbLink.cs)
+[数据库访问类简单Demo](Code/DbLink.cs)
